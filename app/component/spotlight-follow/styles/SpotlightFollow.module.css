@@ -1,0 +1,47 @@
+.container{
+    
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.full-tab{
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    background: linear-gradient(to left, var(--spotlight-default-bg) 50%, var(--spotlight-active-bg) 50%) right;
+    background-size: 200%;
+    transition: all 5s linear;
+ 
+}
+.tab-contents{
+    width: 327px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+}
+.label{
+    color: var(--spotlight-label-color);
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+.follow{
+    border-radius: 8px;
+    width: 59px;
+    height: 21px;
+    cursor: pointer;
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    color: var(--spotlight-follow-color);
+}
